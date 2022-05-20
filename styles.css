@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  background-image: url(forest.jpg);
+  background-color: cadetblue;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(130, 121, 121, 0.4);
+  width: 550px;
+}
+
+#hero-title {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#hero-text {
+  height: 350px;
+  margin-left: 10px;
+}
+
+.our-mission {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 400px;
+  height: 300px;
+}
+
+#mission-text {
+  margin: 30px;
+}
+
+.nft-section {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-color: white;
+  margin-top: 400px;
+}
+
+.nft-display {
+  margin: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 300px;
+  margin-top: 400px;
+}
+
+.footer-text {
+}
