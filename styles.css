@@ -8,7 +8,6 @@ body {
   position: relative;
   font-family: "Helvetica Neue";
   background-image: url(images/SKY.jpg);
-  
 }
 
 .image2 {
@@ -21,6 +20,10 @@ body {
   background: url(images/tree3.png);
   margin-top: 250px;
   width: 100%;
+}
+
+.river-image {
+  margin-top: 70%;
 }
 
 .logo {
