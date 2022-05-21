@@ -16,6 +16,13 @@ body {
   margin-top: 250px;
 }
 
+.image3 {
+  position: absolute;
+  background: url(images/tree3.png);
+  margin-top: 250px;
+  width: 100%;
+}
+
 .logo {
   margin: 30px;
   width: 10%;
@@ -48,8 +55,12 @@ a:link {
   position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
   color: white;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100%;
 }
 
 #hero-title {
@@ -70,7 +81,9 @@ a:link {
 #hero-text {
   margin-top: 30px;
   height: 350px;
-  margin-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
 .our-mission {
