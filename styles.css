@@ -5,36 +5,70 @@
 }
 
 body {
+  position: relative;
   font-family: "Helvetica Neue";
   background-image: url(images/SKY.jpg);
   background-color: cadetblue;
 }
 
+.image2 {
+  position: absolute;
+  margin-top: 250px;
+}
+
 .logo {
-  font-size: 20px;
+  margin: 30px;
+  width: 10%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+}
+
+a:link {
+  color: white;
 }
 
 .navbar {
-  display: flex;
   justify-content: space-around;
   margin-top: 30px;
+  margin-left: 30%;
   font-weight: bold;
+  color: white;
+  width: 50%;
 }
 
 #hero {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(130, 121, 121, 0.4);
-  width: 550px;
+  color: white;
 }
 
 #hero-title {
-  margin-top: 30px;
+  margin-top: 200px;
+  font-size: 94px;
+  background-image: url(images/vlad-hilitanu-pt7QzB4ZLWw-unsplash.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
   font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
 }
 
 #hero-text {
+  margin-top: 30px;
   height: 350px;
   margin-left: 10px;
 }
